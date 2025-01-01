@@ -4,13 +4,16 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import Library from "./chapter_03/Library"; // Library.jsx import 추가
+//import Library from "./chapter_03/Library"; // Library.jsx import 추가
+// import Clock from "./chapter_04/Clock";
+// import CommentList from "./chapter_05/CommentList";
+import NotificationList from "./chapter_06/NotificationList";
 
-// ReactDOM을 사용하여, root DOM 내부에 Library를 사용하도록 수정
+// ReactDOM을 사용하여, root DOM 내부에 Library, Clock.jsx...를 사용하도록 수정
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Library />
+    <NotificationList />
   </React.StrictMode>
 );
 
